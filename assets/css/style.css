@@ -1,6 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
     font-family: Oswald, Noto-serif, sans-serif;
+    color: #64363C;
 }
+
+h2 {
+    font-family: Oswald, sand-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #8E354A;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+#menu {
+    font-style: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, 
+#menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777; 
+    
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+    /* Add a color to the active/current link 
+    #menu li {
+        float: right;
+        margin-right: 30px;
+
+    }
+
+.topnav-right {
+        float: right;
+        margin-right: 30px;
+    
+        }
+    
+.topnav a:hover {
+            border-bottom: 1px solid #777777;
+        }
+
+    header {}*/
