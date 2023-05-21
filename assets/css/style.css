@@ -29,7 +29,7 @@ h2 {
     letter-spacing: 4px;
 }
 
-#logo, 
+#logo,
 #menu {
     line-height: 75px;
 }
@@ -45,13 +45,20 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #777777; 
-    
+    border-bottom: 1px solid #777777;
+}
+
 .active {
     border-bottom: 1px solid #777777;
 }
 
-    /* Add a color to the active/current link 
+.hero-image {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Add a color to the active/current link 
     #menu li {
         float: right;
         margin-right: 30px;
