@@ -12,7 +12,7 @@ body {
 }
 
 h2 {
-    font-family: Oswald, sand-serif;
+    font-family: Oswald, noto-serif, sand-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #8E354A;
@@ -52,11 +52,39 @@ h2 {
     border-bottom: 1px solid #777777;
 }
 
+.hero-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .hero-image {
     height: 600px;
     width: 100%;
     object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+#hero-text>h2 {
+    color: white;
+}
+
+#hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 
 /* Add a color to the active/current link 
     #menu li {
