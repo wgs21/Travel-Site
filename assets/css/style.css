@@ -75,7 +75,7 @@ h2 {
 
 #hero-text {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 600px;
+    height: 1200px;
     width: 100%;
     text-align: center;
     position: absolute;
@@ -84,7 +84,28 @@ h2 {
     transform: translate(-50%, -50%);
 
 }
+footer {
+    height: 150px;
+}
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#8E354A
+}
+
+.network-styling {
+    text-decoration: none;
+}
 
 /* Add a color to the active/current link 
     #menu li {
